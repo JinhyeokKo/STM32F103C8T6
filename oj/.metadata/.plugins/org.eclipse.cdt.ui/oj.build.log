@@ -1,0 +1,10 @@
+21:10:45 **** Build of configuration Debug for project oj ****
+make -j20 all 
+arm-none-eabi-size  oj.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20824	    468	   2012	  23304	   5b08	oj.elf
+Finished building: default.size.stdout
+ 
+
+21:10:45 Build Finished. 0 errors, 0 warnings. (took 186ms)
+
