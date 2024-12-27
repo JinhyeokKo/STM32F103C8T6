@@ -1,0 +1,52 @@
+!SESSION 2024-12-28 03:41:37.992 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\A\baram
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-28 03:41:43.458
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-28 03:41:43.458
+!MESSAGE Log4j2 initialized with config file D:\A\baram\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-28 03:41:45.816
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 03:42:23.676
+!MESSAGE Indexed 'baram' (3 sources, 53 headers) in 1.21 sec: 1,950 declarations; 2,835 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 04:00:04.976
+!MESSAGE Indexed 'baram' (6 sources, 62 headers) in 0.199 sec: 2,118 declarations; 2,989 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.039%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 04:00:51.535
+!MESSAGE Indexed 'baram' (6 sources, 62 headers) in 0.143 sec: 2,118 declarations; 2,989 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.039%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 04:01:01.985
+!MESSAGE Indexed 'baram' (6 sources, 62 headers) in 0.15 sec: 2,118 declarations; 2,989 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.039%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-28 04:36:17.373
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2024-12-28 04:36:17.374
+!MESSAGE Setup exceptions
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 05:18:19.982
+!MESSAGE Indexed 'baram' (17 sources, 79 headers) in 0.337 sec: 3,051 declarations; 7,935 references; 0 unresolved inclusions; 39 syntax errors; 1,286 unresolved names (10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 05:20:31.550
+!MESSAGE Indexed 'baram' (17 sources, 86 headers) in 0.567 sec: 3,764 declarations; 13,297 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)

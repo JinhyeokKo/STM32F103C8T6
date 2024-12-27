@@ -1,0 +1,10 @@
+05:36:23 **** Incremental Build of configuration Debug for project baram ****
+make -j20 all 
+arm-none-eabi-size  baram.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3724	     12	   1572	   5308	   14bc	baram.elf
+Finished building: default.size.stdout
+ 
+
+05:36:24 Build Finished. 0 errors, 0 warnings. (took 251ms)
+
