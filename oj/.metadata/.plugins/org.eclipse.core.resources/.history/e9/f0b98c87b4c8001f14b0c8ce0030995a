@@ -1,0 +1,10 @@
+#include "heater_controller.h"
+
+enum{
+	t_OFF = 0,
+	t_ON = 1
+};
+
+void heaterControll(uint_t onOff){
+	HAL_GPIO_WritePin(PB5_RELAY_CTRL_GPIO_Port, PB5_RELAY_CTRL_Pin, onOff);
+}

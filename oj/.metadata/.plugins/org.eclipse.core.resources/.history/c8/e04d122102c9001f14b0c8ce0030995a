@@ -1,0 +1,21 @@
+/*
+ * heater_controller.h
+ *
+ *  Created on: Jan 2, 2025
+ *      Author: Jinhy
+ */
+
+#ifndef SRC_HEATER_CONTROLLER_H_
+#define SRC_HEATER_CONTROLLER_H_
+
+#include "main.h"
+
+enum{
+	t_OFF = 0,
+	t_ON = 1
+};
+
+uint8_t getHeaterState();
+void heaterControll(uint8_t onOff);
+
+#endif /* SRC_HEATER_CONTROLLER_H_ */
