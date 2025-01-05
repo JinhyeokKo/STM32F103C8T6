@@ -1,0 +1,11 @@
+#ifndef INC_DEFINES_H_
+#define INC_DEFINES_H_
+
+#define DEFAULT_TEMPER 25
+#define BUTTON_GAP 200
+#define POWER_SW_CHECK_TIME 100
+#define TOGGLE_TIME 10000
+#define TEMPER_UPPER_GAP 5
+#define TEMPER_LOWER_GAP 5
+
+#endif /* INC_DEFINES_H_ */

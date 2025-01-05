@@ -1,0 +1,7 @@
+#ifndef INC_DEFINES_H_
+#define INC_DEFINES_H_
+
+#define DEFAULT_TEMPER 25
+
+
+#endif /* INC_DEFINES_H_ */

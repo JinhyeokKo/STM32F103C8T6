@@ -10,7 +10,7 @@
 
 #include "main.h"
 
-void init_fnd();
+void init_fnd(SPI_HandleTypeDef * hspi);
 
 void send(uint8_t X);
 

@@ -1,0 +1,23 @@
+#include "heater_controller.h"
+
+static uint8_t m_state = 0;
+static int m_current_temper = 0;
+static int m_before_temper = 0;
+static int m_desired_temper = 0;
+
+void setDesiredTemper(void){
+	m_desired_temper = temper;
+}
+
+void getDesiredTemper(void){
+	return m_desired_temper;
+}
+
+void heaterControll(uint8_t onOff){
+	HAL_GPIO_WritePin(PB5_RELAY_CTRL_GPIO_Port, PB5_RELAY_CTRL_Pin, onOff);
+	m_state = onOff;
+}
+
+uint8_t getHeaterState(){
+	return m_state;
+}

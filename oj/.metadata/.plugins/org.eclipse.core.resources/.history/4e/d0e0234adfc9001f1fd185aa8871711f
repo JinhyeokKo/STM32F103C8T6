@@ -1,0 +1,6 @@
+#ifndef LIB_INC_UTILS_H_
+#define LIB_INC_UTILS_H_
+
+int _write(int file, char * p, int len);
+
+#endif /* LIB_INC_UTILS_H_ */

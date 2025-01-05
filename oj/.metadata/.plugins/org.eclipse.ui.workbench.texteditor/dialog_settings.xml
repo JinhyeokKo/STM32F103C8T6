@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="H_I2C"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="onf"/>
+			<item value="g_f_sw_up"/>
+			<item value="EXTI0_IRQHandler"/>
+			<item value="hspi2"/>
 			<item value="hi2c1"/>
 			<item value="getCurrentTemper"/>
 			<item value="int _write"/>

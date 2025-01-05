@@ -9,13 +9,15 @@
 #define SRC_HEATER_CONTROLLER_H_
 
 #include "main.h"
+#include "controll_type.h"
+#include "defines.h"
 
-enum{
-	t_OFF = 0,
-	t_ON = 1
-};
-
+void temper_up();
+void temper_down();
+void setFixedTemper(void);
+int getFixedTemper(void);
 uint8_t getHeaterState();
-void heaterControll(uint8_t onOff);
+void heaterOnOff(uint8_t onOff);
+void heaterControll(float temper);
 
 #endif /* SRC_HEATER_CONTROLLER_H_ */

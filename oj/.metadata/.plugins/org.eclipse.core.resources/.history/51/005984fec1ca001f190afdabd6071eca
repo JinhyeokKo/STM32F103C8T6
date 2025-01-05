@@ -1,0 +1,40 @@
+#include "heater_controller.h"
+#include "oled_controller.h"
+
+static uint8_t m_state = 0;
+static int m_fixed_temper = 0;
+static int m_before_temper = 0;
+static int m_desired_temper = 0;
+
+void temper_up(){
+	m_desired_temper++;
+	if(m_desired_temper > 99){
+		m_desired_temper = 0;
+	}
+	printTemper(count);
+}
+
+void temper_down(){
+	m_desired_temper--;
+	if(m_desired_temper < 0){
+		m_desired_temper = 99;
+	}
+	printTemper(count);
+}
+
+void setFixedTemper(void){
+	m_fixed_temper= m_desired_temper;
+}
+
+void getFixedTemper(void){
+	return m_desired_temper;
+}
+
+void heaterControll(uint8_t onOff){
+	HAL_GPIO_WritePin(PB5_RELAY_CTRL_GPIO_Port, PB5_RELAY_CTRL_Pin, onOff);
+	m_state = onOff;
+}
+
+uint8_t getHeaterState(){
+	return m_state;
+}

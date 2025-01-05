@@ -1,0 +1,19 @@
+/*
+ * heater_controller.h
+ *
+ *  Created on: Jan 2, 2025
+ *      Author: Jinhy
+ */
+
+#ifndef SRC_HEATER_CONTROLLER_H_
+#define SRC_HEATER_CONTROLLER_H_
+
+#include "main.h"
+#include "controll_type.h"
+
+void setDesiredTemper(void);
+void getDesiredTemper(void);
+uint8_t getHeaterState();
+void heaterControll(uint8_t onOff);
+
+#endif /* SRC_HEATER_CONTROLLER_H_ */

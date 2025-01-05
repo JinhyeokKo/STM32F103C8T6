@@ -1,2 +1,8 @@
-../Core/Src/heater_controller.c:4:6:heaterControll	16	static
-../Core/Src/heater_controller.c:9:9:getHeaterState	4	static
+../Core/Src/heater_controller.c:10:6:initHeater	8	static
+../Core/Src/heater_controller.c:15:6:temper_up	8	static
+../Core/Src/heater_controller.c:23:6:temper_down	8	static
+../Core/Src/heater_controller.c:31:6:setFixedTemper	4	static
+../Core/Src/heater_controller.c:35:5:getFixedTemper	4	static
+../Core/Src/heater_controller.c:39:6:heaterOnOff	16	static
+../Core/Src/heater_controller.c:52:9:getHeaterState	4	static
+../Core/Src/heater_controller.c:56:6:heaterControll	16	static

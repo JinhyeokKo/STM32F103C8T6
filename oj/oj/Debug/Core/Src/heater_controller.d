@@ -23,9 +23,13 @@ Core/Src/heater_controller.o: ../Core/Src/heater_controller.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
+ ../Core/Inc/controll_type.h ../Core/Inc/defines.h \
+ ../Core/Inc/oled_controller.h D:/A/oj/oj/Core/Lib/Inc/ssd1306.h \
+ D:/A/oj/oj/Core/Lib/Inc/fonts.h ../Core/Inc/led_controller.h
 ../Core/Inc/heater_controller.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
@@ -51,6 +55,13 @@ Core/Src/heater_controller.o: ../Core/Src/heater_controller.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
+../Core/Inc/controll_type.h:
+../Core/Inc/defines.h:
+../Core/Inc/oled_controller.h:
+D:/A/oj/oj/Core/Lib/Inc/ssd1306.h:
+D:/A/oj/oj/Core/Lib/Inc/fonts.h:
+../Core/Inc/led_controller.h:

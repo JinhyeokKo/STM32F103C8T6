@@ -1,0 +1,6 @@
+#ifndef INC_OLED_CONTROLLER_H_
+#define INC_OLED_CONTROLLER_H_
+
+void opening();
+
+#endif /* INC_OLED_CONTROLLER_H_ */

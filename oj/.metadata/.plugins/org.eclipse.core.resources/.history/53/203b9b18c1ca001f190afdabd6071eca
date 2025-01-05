@@ -1,0 +1,27 @@
+#include "button_controller.h"
+#include "oled_controller.h"
+
+int count = 0;
+
+void checkButton(){
+
+//	  printf("push\r\n");
+
+	  count++;
+	  if(count > 99){
+		  count = 0;
+	  }
+	  printTemper(count);
+
+//	  printf("down\r\n");
+
+	  count--;
+	  if(count < 0){
+		  count = 99;
+	  }
+	  printTemper(count);
+
+//	  printf("fix\r\n");
+	  HAL_GPIO_TogglePin(PB5_RELAY_CTRL_GPIO_Port, PB5_RELAY_CTRL_Pin);
+	  setDesiredTemper(temper;)
+}

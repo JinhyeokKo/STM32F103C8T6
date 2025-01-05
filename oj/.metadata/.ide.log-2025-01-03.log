@@ -1,0 +1,104 @@
+2025-01-04 00:00:38,226 [INFO] Gpio:277 - dependency for GPIO [I2C2, RCC, SYS, USART1]
+2025-01-04 00:00:38,476 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-01-04 00:00:38,722 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,723 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,724 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,724 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,784 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,784 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,839 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,839 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:00:38,876 [INFO] Gpio:277 - dependency for GPIO [I2C2, RCC, SYS, USART1]
+2025-01-04 00:00:39,016 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-01-04 00:01:07,504 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 514515432 Bytes (637534208)
+2025-01-04 00:01:07,620 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 529157360 Bytes (637534208)
+2025-01-04 00:01:08,288 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 559604200 Bytes (637534208)
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-01-04 00:01:08,899 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-01-04 00:01:08,900 [INFO] CodeGenerator:896 - code generatio: config db path: D:\Program Files\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-01-04 00:01:08,900 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:01:08,901 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:01:09,220 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\MXTmpFiles\license.tmp_save
+2025-01-04 00:01:09,368 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\MXTmpFiles\license.tmp
+2025-01-04 00:01:09,399 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\MXTmpFiles\gpio.tmp_save
+2025-01-04 00:01:09,541 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\MXTmpFiles\gpio.tmp
+2025-01-04 00:01:09,724 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Src\stm32f1xx_it.c_save
+2025-01-04 00:01:09,854 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Src\stm32f1xx_it.c
+2025-01-04 00:01:09,858 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Inc\stm32f1xx_it.h_save
+2025-01-04 00:01:09,949 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Inc\stm32f1xx_it.h
+2025-01-04 00:01:09,966 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Src\stm32f1xx_hal_msp.c_save
+2025-01-04 00:01:10,115 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Src\stm32f1xx_hal_msp.c
+2025-01-04 00:01:10,118 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\MXTmpFiles\system.tmp_save
+2025-01-04 00:01:10,221 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\MXTmpFiles\system.tmp
+2025-01-04 00:01:10,245 [INFO] CodeEngine:311 - oldGeneratedFile, D:\A\oj\oj\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-01-04 00:01:10,404 [INFO] CodeEngine:335 - Generated code: D:\A\oj\oj\Core\Inc\stm32f1xx_hal_conf.h
+2025-01-04 00:01:10,440 [WARN] IPConfigManager:3618 - IP not found : TIM
+2025-01-04 00:01:10,441 [WARN] CodeGenerator:4152 - IP not found : null
+2025-01-04 00:01:10,465 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Inc\main.h_save
+2025-01-04 00:01:10,606 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Inc\main.h
+2025-01-04 00:01:10,645 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Src\main.c_save
+2025-01-04 00:01:10,815 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Src\main.c
+2025-01-04 00:01:11,209 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 125mS.
+2025-01-04 00:01:11,211 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-01-04 00:01:11,270 [INFO] ConfigFileManager:1579 - The Die is : DIE410
+2025-01-04 00:01:12,341 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1130mS.
+2025-01-04 00:01:12,342 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-01-04 00:01:12,343 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-01-04 00:02:53,869 [INFO] Gpio:277 - dependency for GPIO [I2C2, RCC, SYS, USART1]
+2025-01-04 00:02:54,008 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-01-04 00:02:54,154 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,154 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,154 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,155 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,178 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,178 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,200 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,200 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:54,230 [INFO] Gpio:277 - dependency for GPIO [I2C2, RCC, SYS, USART1]
+2025-01-04 00:02:54,339 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-01-04 00:02:56,717 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 582351392 Bytes (637534208)
+2025-01-04 00:02:56,815 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 276983728 Bytes (637534208)
+2025-01-04 00:02:57,262 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 306479568 Bytes (637534208)
+2025-01-04 00:02:57,447 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-01-04 00:02:57,447 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-01-04 00:02:57,447 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-01-04 00:02:57,447 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-01-04 00:02:57,448 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-01-04 00:02:57,448 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-01-04 00:02:57,448 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-01-04 00:02:57,448 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-01-04 00:02:57,448 [INFO] CodeGenerator:896 - code generatio: config db path: D:\Program Files\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-01-04 00:02:57,449 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:57,449 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-01-04 00:02:57,504 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\MXTmpFiles\license.tmp_save
+2025-01-04 00:02:57,686 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\MXTmpFiles\license.tmp
+2025-01-04 00:02:57,715 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\MXTmpFiles\gpio.tmp_save
+2025-01-04 00:02:57,857 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\MXTmpFiles\gpio.tmp
+2025-01-04 00:02:58,037 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Src\stm32f1xx_it.c_save
+2025-01-04 00:02:58,148 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Src\stm32f1xx_it.c
+2025-01-04 00:02:58,152 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Inc\stm32f1xx_it.h_save
+2025-01-04 00:02:58,229 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Inc\stm32f1xx_it.h
+2025-01-04 00:02:58,251 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Src\stm32f1xx_hal_msp.c_save
+2025-01-04 00:02:58,369 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Src\stm32f1xx_hal_msp.c
+2025-01-04 00:02:58,371 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\MXTmpFiles\system.tmp_save
+2025-01-04 00:02:58,436 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\MXTmpFiles\system.tmp
+2025-01-04 00:02:58,449 [INFO] CodeEngine:311 - oldGeneratedFile, D:\A\oj\oj\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-01-04 00:02:58,544 [INFO] CodeEngine:335 - Generated code: D:\A\oj\oj\Core\Inc\stm32f1xx_hal_conf.h
+2025-01-04 00:02:58,565 [WARN] IPConfigManager:3618 - IP not found : TIM
+2025-01-04 00:02:58,565 [WARN] CodeGenerator:4152 - IP not found : null
+2025-01-04 00:02:58,577 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Inc\main.h_save
+2025-01-04 00:02:58,660 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Inc\main.h
+2025-01-04 00:02:58,681 [INFO] CodeEngine:255 - oldGeneratedFile, D:\A\oj\oj\Core\Src\main.c_save
+2025-01-04 00:02:58,787 [INFO] CodeEngine:279 - Generated code: D:\A\oj\oj\Core\Src\main.c
+2025-01-04 00:02:59,041 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 66mS.
+2025-01-04 00:02:59,043 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-01-04 00:02:59,096 [INFO] ConfigFileManager:1579 - The Die is : DIE410
+2025-01-04 00:02:59,929 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 886mS.
+2025-01-04 00:02:59,930 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-01-04 00:02:59,931 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.

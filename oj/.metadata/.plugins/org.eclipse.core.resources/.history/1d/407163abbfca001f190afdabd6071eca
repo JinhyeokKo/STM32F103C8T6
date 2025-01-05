@@ -1,0 +1,22 @@
+#include "button_controller.h"
+
+int count = 0;
+
+void checkButton(){
+
+	  //printf("push\r\n");
+	  HAL_GPIO_TogglePin(PB6_LED1_GPIO_Port, PB6_LED1_Pin);
+	  count++;
+	  if(count > 99){
+		  count = 0;
+	  }
+	  printTemper(count);
+
+//	  printf("down\r\n");
+	  HAL_GPIO_TogglePin(PB7_LED2_GPIO_Port, PB7_LED2_Pin);
+	  count--;
+	  if(count < 0){
+		  count = 99;
+	  }
+	  printTemper(count);
+}

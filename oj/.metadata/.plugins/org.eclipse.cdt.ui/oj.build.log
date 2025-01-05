@@ -1,21 +1,10 @@
-21:56:44 **** Incremental Build of configuration Debug for project oj ****
+16:00:03 **** Incremental Build of configuration Debug for project oj ****
 make -j20 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"D:/A/oj/oj/Core/Lib/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:92:15: warning: variable 'temper' set but not used [-Wunused-but-set-variable]
-   92 |         float temper = 0.0;
-      |               ^~~~~~
-arm-none-eabi-gcc -o "oj.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\A\oj\oj\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="oj.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: oj.elf
- 
 arm-none-eabi-size  oj.elf 
-arm-none-eabi-objdump -h -S oj.elf  > "oj.list"
    text	   data	    bss	    dec	    hex	filename
-  34016	    468	   3316	  37800	   93a8	oj.elf
+  41216	    484	   3428	  45128	   b048	oj.elf
 Finished building: default.size.stdout
  
-Finished building: oj.list
- 
 
-21:56:45 Build Finished. 0 errors, 1 warnings. (took 591ms)
+16:00:03 Build Finished. 0 errors, 0 warnings. (took 134ms)
 

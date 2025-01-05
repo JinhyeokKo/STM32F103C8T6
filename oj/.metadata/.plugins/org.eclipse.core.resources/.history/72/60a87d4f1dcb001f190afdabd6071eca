@@ -1,0 +1,28 @@
+#include "button_controller.h"
+#include "oled_controller.h"
+#include "heater_controller.h"
+
+int count = 0;
+
+void checkButton(){
+
+//	  printf("push\r\n");
+	count++;
+	temper_up();
+
+
+
+//	  printf("down\r\n");
+	temper_down();
+
+
+//	  printf("fix\r\n");
+	  HAL_GPIO_TogglePin(PB5_RELAY_CTRL_GPIO_Port, PB5_RELAY_CTRL_Pin);
+	  setFixedTemper();
+}
+
+void getSwState(){
+	if(HAL_GPIO_ReadPin(PB12_START_SW_PIN_GPIO_Port, PB12_START_SW_PIN_Pin)){
+		return OFF_t;
+	}
+}

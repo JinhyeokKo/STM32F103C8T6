@@ -1,0 +1,9 @@
+#ifndef INC_OLED_CONTROLLER_H_
+#define INC_OLED_CONTROLLER_H_
+
+#include "ssd1306.h"
+
+void opening();
+void printDefault()
+
+#endif /* INC_OLED_CONTROLLER_H_ */
