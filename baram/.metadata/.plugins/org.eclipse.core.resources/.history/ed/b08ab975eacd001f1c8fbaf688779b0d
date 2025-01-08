@@ -1,0 +1,19 @@
+/*
+ * reset.c
+ *
+ *  Created on: Jan 9, 2025
+ *      Author: Jinhy
+ */
+
+
+#include "reset.h"
+
+bool resetInit(void){
+  bool ret = true;
+
+  return ret;
+}
+
+uint32_t resetGetCount(void){
+  return 0;
+}

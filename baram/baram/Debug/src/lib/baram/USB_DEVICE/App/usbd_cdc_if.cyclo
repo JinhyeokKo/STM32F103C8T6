@@ -1,0 +1,10 @@
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:33:10:cdcAvailable	1
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:42:9:cdcRead	2
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:56:6:cdcDataIn	2
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:69:10:cdcWrite	4
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:96:10:cdcGetBaud	1
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:224:15:CDC_Init_FS	1
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:238:15:CDC_DeInit_FS	1
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:252:15:CDC_Control_FS	3
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:346:15:CDC_Receive_FS	2
+../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c:372:9:CDC_Transmit_FS	2

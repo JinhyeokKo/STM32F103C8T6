@@ -9,7 +9,12 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include src/lib/baram/USB_DEVICE/Target/subdir.mk
+-include src/lib/baram/USB_DEVICE/App/subdir.mk
+-include src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Src/subdir.mk
+-include src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
 -include src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
+-include src/hw/driver/subdir.mk
 -include src/hw/subdir.mk
 -include src/bsp/startup/subdir.mk
 -include src/bsp/subdir.mk

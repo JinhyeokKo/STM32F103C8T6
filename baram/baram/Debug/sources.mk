@@ -25,7 +25,12 @@ SUBDIRS := \
 src/ap \
 src/bsp \
 src/bsp/startup \
+src/hw/driver \
 src/hw \
 src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Src \
+src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src \
+src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Src \
+src/lib/baram/USB_DEVICE/App \
+src/lib/baram/USB_DEVICE/Target \
 src \
 

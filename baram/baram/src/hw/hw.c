@@ -5,12 +5,15 @@
  *      Author: Jinhy
  */
 
-
 #include "hw.h"
 
+void hwInit(void)
+{
+    bspInit();
+    rtcInit();
 
-
-
-void hwInit(void){
-	bspInit();
+    resetInit();
+    ledInit();
+    usbInit();
+    uartInit();
 }

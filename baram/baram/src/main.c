@@ -5,19 +5,15 @@
  *      Author: Jinhy
  */
 
-
 #include "main.h"
 
+int main(void)
+{
 
+    hwInit();
+    apInit();
 
+    apMain();
 
-int main(void){
-
-	hwInit();
-	apInit();
-
-
-	apMain();
-
-	return 0;
+    return 0;
 }
