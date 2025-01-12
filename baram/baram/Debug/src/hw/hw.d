@@ -33,7 +33,8 @@ src/hw/hw.o: ../src/hw/hw.c ../src/hw/hw.h ../src/hw/hw_def.h \
  D:/A/baram/baram/src/common/hw/include/uart.h \
  D:/A/baram/baram/src/common/hw/include/usb.h \
  D:/A/baram/baram/src/common/hw/include/rtc.h \
- D:/A/baram/baram/src/common/hw/include/reset.h
+ D:/A/baram/baram/src/common/hw/include/reset.h \
+ D:/A/baram/baram/src/common/hw/include/flash.h
 ../src/hw/hw.h:
 ../src/hw/hw_def.h:
 D:/A/baram/baram/src/bsp/bsp.h:
@@ -72,3 +73,4 @@ D:/A/baram/baram/src/common/hw/include/uart.h:
 D:/A/baram/baram/src/common/hw/include/usb.h:
 D:/A/baram/baram/src/common/hw/include/rtc.h:
 D:/A/baram/baram/src/common/hw/include/reset.h:
+D:/A/baram/baram/src/common/hw/include/flash.h:

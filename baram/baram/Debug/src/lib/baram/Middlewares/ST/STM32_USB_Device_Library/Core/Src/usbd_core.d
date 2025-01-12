@@ -39,6 +39,7 @@ src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o: \
  D:/A/baram/baram/src/common/hw/include/usb.h \
  D:/A/baram/baram/src/common/hw/include/rtc.h \
  D:/A/baram/baram/src/common/hw/include/reset.h \
+ D:/A/baram/baram/src/common/hw/include/flash.h \
  D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
@@ -85,6 +86,7 @@ D:/A/baram/baram/src/common/hw/include/uart.h:
 D:/A/baram/baram/src/common/hw/include/usb.h:
 D:/A/baram/baram/src/common/hw/include/rtc.h:
 D:/A/baram/baram/src/common/hw/include/reset.h:
+D:/A/baram/baram/src/common/hw/include/flash.h:
 D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:

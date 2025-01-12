@@ -38,7 +38,8 @@ src/hw/driver/usb.o: ../src/hw/driver/usb.c \
  D:/A/baram/baram/src/common/hw/include/led.h \
  D:/A/baram/baram/src/common/hw/include/uart.h \
  D:/A/baram/baram/src/common/hw/include/rtc.h \
- D:/A/baram/baram/src/common/hw/include/reset.h
+ D:/A/baram/baram/src/common/hw/include/reset.h \
+ D:/A/baram/baram/src/common/hw/include/flash.h
 D:/A/baram/baram/src/common/hw/include/usb.h:
 D:/A/baram/baram/src/hw/hw_def.h:
 D:/A/baram/baram/src/bsp/bsp.h:
@@ -82,3 +83,4 @@ D:/A/baram/baram/src/common/hw/include/led.h:
 D:/A/baram/baram/src/common/hw/include/uart.h:
 D:/A/baram/baram/src/common/hw/include/rtc.h:
 D:/A/baram/baram/src/common/hw/include/reset.h:
+D:/A/baram/baram/src/common/hw/include/flash.h:

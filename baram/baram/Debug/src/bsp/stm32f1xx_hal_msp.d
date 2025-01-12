@@ -35,7 +35,8 @@ src/bsp/stm32f1xx_hal_msp.o: ../src/bsp/stm32f1xx_hal_msp.c \
  D:/A/baram/baram/src/common/hw/include/uart.h \
  D:/A/baram/baram/src/common/hw/include/usb.h \
  D:/A/baram/baram/src/common/hw/include/rtc.h \
- D:/A/baram/baram/src/common/hw/include/reset.h
+ D:/A/baram/baram/src/common/hw/include/reset.h \
+ D:/A/baram/baram/src/common/hw/include/flash.h
 D:/A/baram/baram/src/main.h:
 D:/A/baram/baram/src/ap/ap.h:
 D:/A/baram/baram/src/hw/hw.h:
@@ -76,3 +77,4 @@ D:/A/baram/baram/src/common/hw/include/uart.h:
 D:/A/baram/baram/src/common/hw/include/usb.h:
 D:/A/baram/baram/src/common/hw/include/rtc.h:
 D:/A/baram/baram/src/common/hw/include/reset.h:
+D:/A/baram/baram/src/common/hw/include/flash.h:

@@ -16,8 +16,6 @@ void apInit(void)
 void apMain(void)
 {
     uint32_t pre_time;
-    uint8_t rx_buf[128];
-    uint32_t rx_len;
 
     pre_time = millis();
     while (1)
@@ -27,37 +25,51 @@ void apMain(void)
             pre_time = millis();
             ledToggle(_DEF_LED1);
         }
-        if (uartGetBaud(_DEF_UART1) != uartGetBaud(_DEF_UART2))
+
+        if (uartAvailable(_DEF_UART1) > 0)
         {
-            uartOpen(_DEF_UART2, uartGetBaud(_DEF_UART1));
-        }
-        // USB->UART
-        rx_len = uartAvailable(_DEF_UART1);
-        if (rx_len > 128)
-        {
-            rx_len = 128;
-        }
-        if (rx_len > 0)
-        {
-            for (int i = 0; i < rx_len; i++)
+            uint8_t rx_data;
+
+            rx_data = uartRead(_DEF_UART1);
+            if (rx_data == '1')
             {
-                rx_buf[i] = uartRead(_DEF_UART1);
+                uint8_t buf[32];
+
+                logPrintf("read\n");
+                flashRead(0x8000000 + (60 * 1024), buf, 32);
+
+                for (int i = 0; i < 32; i++)
+                {
+                    logPrintf("0x%X : 0x%X\n", 0x8000000 + (60 * 1024) + i,
+                              buf[i]);
+                }
             }
-            uartWrite(_DEF_UART2, rx_buf, rx_len);
-        }
-        // UART->USB
-        rx_len = uartAvailable(_DEF_UART2);
-        if (rx_len > 128)
-        {
-            rx_len = 128;
-        }
-        if (rx_len > 0)
-        {
-            for (int i = 0; i < rx_len; i++)
+            if (rx_data == '2')
             {
-                rx_buf[i] = uartRead(_DEF_UART2);
+                logPrintf("erase\n");
+                if (flashErase(0x8000000 + (60 * 1024), 32) == true)
+                {
+                    logPrintf("ok\n");
+                }
+                else
+                {
+                    logPrintf("fail\n");
+                }
             }
-            uartWrite(_DEF_UART1, rx_buf, rx_len);
+            if(rx_data =='3'){
+              uint8_t buf[32];
+
+              for(int i=0; i<32; i++){
+                buf[i] = i;
+              }
+              logPrintf("write\n");
+
+              if(flashWrite(0x8000000 + (60 * 1024),buf, 32) == true){
+                logPrintf("ok\n");
+              }else{
+                logPrintf("fail\n");
+              }
+            }
         }
     }
 }

@@ -1,0 +1,34 @@
+/*
+ * flash.c
+ *
+ *  Created on: Jan 12, 2025
+ *      Author: Jinhy
+ */
+
+#include "flash.h"
+
+#define FLASH_SECTOR_MAX 64
+
+typedef struct
+{
+    uint32_t addr;
+    uint16_t length;
+} flash_tbl_t;
+
+static flash_tbl_t flash_tbl[FLASH_SECTOR_MAX];
+
+bool flashInit(void)
+{
+  for(int i = 0; i< FLASH_SECTOR_MAX; i++){
+    flash_tbl[i].addr = 0x8000000 + i*1024;
+  }
+}
+bool flashErase(uint32_t addr, uint32_t length)
+{
+}
+bool flashWrite(uint32_t addr, uint8_t *p_data, uint32_t length)
+{
+}
+bool flashRead(uint32_t addr, uint8_t *p_data, uint32_t length)
+{
+}
