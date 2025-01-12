@@ -1,21 +1,22 @@
-23:46:26 **** Incremental Build of configuration Debug for project baram ****
+21:19:54 **** Incremental Build of configuration Debug for project baram ****
 make -j20 all 
-arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32F103xB -c -I"D:/A/baram/baram/src" -I"D:/A/baram/baram/src/ap" -I"D:/A/baram/baram/src/bsp" -I"D:/A/baram/baram/src/common" -I"D:/A/baram/baram/src/common/core" -I"D:/A/baram/baram/src/hw" -I"D:/A/baram/baram/src/lib" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc" -I"D:/A/baram/baram/src/common/hw/include" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/App" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/ap/ap.o"
+arm-none-eabi-gcc "../src/lib/baram/USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32F103xB -c -I"D:/A/baram/baram/src" -I"D:/A/baram/baram/src/ap" -I"D:/A/baram/baram/src/bsp" -I"D:/A/baram/baram/src/common" -I"D:/A/baram/baram/src/common/core" -I"D:/A/baram/baram/src/hw" -I"D:/A/baram/baram/src/lib" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc" -I"D:/A/baram/baram/src/common/hw/include" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/App" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/baram/USB_DEVICE/App/usbd_cdc_if.d" -MT"src/lib/baram/USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/lib/baram/USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc "../src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32F103xB -c -I"D:/A/baram/baram/src" -I"D:/A/baram/baram/src/ap" -I"D:/A/baram/baram/src/bsp" -I"D:/A/baram/baram/src/common" -I"D:/A/baram/baram/src/common/core" -I"D:/A/baram/baram/src/hw" -I"D:/A/baram/baram/src/lib" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc" -I"D:/A/baram/baram/src/common/hw/include" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/App" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d" -MT"src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
 arm-none-eabi-gcc -o "baram.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\A\baram\baram\src\bsp\ldscript\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="baram.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: baram.elf
  
 arm-none-eabi-size  baram.elf 
 arm-none-eabi-objdump -h -S baram.elf  > "baram.list"
    text	   data	    bss	    dec	    hex	filename
-  40180	    480	   6336	  46996	   b794	baram.elf
+  40572	    400	   6072	  47044	   b7c4	baram.elf
 Finished building: default.size.stdout
  
 Finished building: baram.list
  
-23:46:30 **** Incremental Build of configuration Debug for project baram ****
+21:20:25 **** Incremental Build of configuration Debug for project baram ****
 make -j20 all 
 arm-none-eabi-size  baram.elf 
    text	   data	    bss	    dec	    hex	filename
-  40180	    480	   6336	  46996	   b794	baram.elf
+  40572	    400	   6072	  47044	   b7c4	baram.elf
 Finished building: default.size.stdout
  
