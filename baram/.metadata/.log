@@ -374,3 +374,60 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-09 02:03:13.708
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-01-09 04:28:43.288 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-09 04:28:49.461
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-09 04:28:49.462
+!MESSAGE Log4j2 initialized with config file D:\A\baram\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-09 04:28:54.325
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-01-09 15:20:09.784 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-09 15:20:36.761
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-09 15:20:36.763
+!MESSAGE Log4j2 initialized with config file D:\A\baram\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-09 15:20:43.440
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-09 23:28:43.734
+!MESSAGE Indexed 'baram' (41 sources, 141 headers) in 2.17 sec: 10,315 declarations; 45,858 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-09 23:29:35.018
+!MESSAGE Indexed 'baram' (41 sources, 141 headers) in 1.24 sec: 10,315 declarations; 45,858 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-09 23:29:47.691
+!MESSAGE Indexed 'baram' (41 sources, 141 headers) in 0.938 sec: 10,315 declarations; 45,858 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-09 23:30:04.246
+!MESSAGE Indexed 'baram' (41 sources, 141 headers) in 0.844 sec: 10,315 declarations; 45,858 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.33%)
+!SESSION 2025-01-12 19:06:20.688 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-12 19:06:41.792
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-12 19:06:41.794
+!MESSAGE Log4j2 initialized with config file D:\A\baram\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-12 19:06:49.674
+!MESSAGE Started RMI Server, listening on port 41337

@@ -26,9 +26,12 @@ src/hw/driver/uart.o: ../src/hw/driver/uart.c \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h \
+ D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
- D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+ D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
+ D:/A/baram/baram/src/common/hw/include/cdc.h \
+ D:/A/baram/baram/src/common/core/qbuffer.h
 D:/A/baram/baram/src/common/hw/include/uart.h:
 D:/A/baram/baram/src/hw/hw_def.h:
 D:/A/baram/baram/src/bsp/bsp.h:
@@ -57,6 +60,9 @@ D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_fl
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h:
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h:
+D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
+D:/A/baram/baram/src/common/hw/include/cdc.h:
+D:/A/baram/baram/src/common/core/qbuffer.h:
