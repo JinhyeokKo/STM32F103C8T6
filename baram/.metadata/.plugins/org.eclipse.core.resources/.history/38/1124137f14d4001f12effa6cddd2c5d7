@@ -1,0 +1,5 @@
+../src/hw/driver/flash.c:22:6:flashInit	16	static
+../src/hw/driver/flash.c:32:6:flashErase	56	static
+../src/hw/driver/flash.c:74:6:flashWrite	72	static
+../src/hw/driver/flash.c:107:6:flashRead	40	static
+../src/hw/driver/flash.c:120:6:flashInSector	48	static

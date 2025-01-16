@@ -2,7 +2,6 @@
 <section name="Workbench">
 	<item key="LastUsedHeaderTemplate" value="Default C header template"/>
 	<item key="LastUsedSourceTemplate" value="Default C source template"/>
-	<item key="org.eclipse.cdt.utils.ui.controls.FileListControl" value="${workspace_loc:/${ProjName}/src/common/core}"/>
 	<item key="org.eclipse.cdt.ui.codeformatter.create_profile_dialog.open_edit" value="true"/>
 	<item key="org.eclipse.cdt.uiformatter_page.white_space.c_view.inner" value="0"/>
 	<item key="org.eclipse.cdt.uiformatter_page.white_space_tab_page.node" value="0"/>
@@ -14,6 +13,7 @@
 	<item key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_x" value="2734"/>
 	<item key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_y" value="-212"/>
 	<item key="ProjectSelectionDialog.show_all" value="true"/>
+	<item key="org.eclipse.cdt.utils.ui.controls.FileListControl" value="&quot;${workspace_loc:/${ProjName}/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc}&quot;"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
@@ -33,6 +33,17 @@
 		<item key="caseSensitive" value="false"/>
 		<item key="searchFlags" value="227191"/>
 		<list key="previousPatterns">
+			<item value="*CDC*"/>
+			<item value="GPIO_PIN_*"/>
+			<item value="__HAL*"/>
+			<item value="__HAL?"/>
+			<item value="__HAL"/>
+			<item value="GPIO_PIN_"/>
+			<item value="HAL"/>
+			<item value="GPIO_Init"/>
+			<item value="GPIO_PIN"/>
+			<item value="HAL_FLASH_Program"/>
+			<item value="USBD_ClassTypeDef"/>
 			<item value="resetGetCount"/>
 			<item value="LED_MAX_CH"/>
 			<item value="hwInit"/>

@@ -1,0 +1,15 @@
+/*
+ * cdc.c
+ *
+ *  Created on: Jan 9, 2025
+ *      Author: Jinhy
+ */
+
+#include "cdc.h"
+#ifdef _USE_HW_CDC
+bool cdcInit(void){
+  bool ret = true;
+
+  return ret;
+}
+#endif

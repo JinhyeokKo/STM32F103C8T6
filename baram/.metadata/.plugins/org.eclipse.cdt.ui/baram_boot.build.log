@@ -1,0 +1,17 @@
+02:01:02 **** Incremental Build of configuration Debug for project baram_boot ****
+make -j20 all 
+arm-none-eabi-gcc "../src/hw/driver/reset.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32F103xB -c -I"D:/A/baram/baram_boot/src" -I"D:/A/baram/baram_boot/src/ap" -I"D:/A/baram/baram_boot/src/bsp" -I"D:/A/baram/baram_boot/src/common" -I"D:/A/baram/baram_boot/src/common/core" -I"D:/A/baram/baram_boot/src/hw" -I"D:/A/baram/baram_boot/src/lib" -I"D:/A/baram/baram_boot/src/lib/baram/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"D:/A/baram/baram_boot/src/lib/baram/Drivers/CMSIS/Include" -I"D:/A/baram/baram_boot/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc" -I"D:/A/baram/baram_boot/src/common/hw/include" -I"D:/A/baram/baram_boot/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc" -I"D:/A/baram/baram_boot/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"D:/A/baram/baram_boot/src/lib/baram/USB_DEVICE/App" -I"D:/A/baram/baram_boot/src/lib/baram/USB_DEVICE/Target" -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/reset.d" -MT"src/hw/driver/reset.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/hw/driver/reset.o"
+arm-none-eabi-gcc -o "baram_boot.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\A\baram\baram_boot\src\bsp\ldscript\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="baram_boot.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: baram_boot.elf
+ 
+arm-none-eabi-size  baram_boot.elf 
+arm-none-eabi-objdump -h -S baram_boot.elf  > "baram_boot.list"
+   text	   data	    bss	    dec	    hex	filename
+  15216	    228	   5400	  20844	   516c	baram_boot.elf
+Finished building: default.size.stdout
+ 
+Finished building: baram_boot.list
+ 
+
+02:01:03 Build Finished. 0 errors, 0 warnings. (took 594ms)
+

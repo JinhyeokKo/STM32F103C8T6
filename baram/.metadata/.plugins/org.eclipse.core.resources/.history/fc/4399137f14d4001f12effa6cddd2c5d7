@@ -1,0 +1,11 @@
+../src/hw/driver/uart.c:20:6:uartInit	16	static
+../src/hw/driver/uart.c:30:6:uartOpen	24	static
+../src/hw/driver/uart.c:80:10:uartAvailable	24	static
+../src/hw/driver/uart.c:98:9:uartRead	24	static
+../src/hw/driver/uart.c:115:10:uartWrite	32	static
+../src/hw/driver/uart.c:137:10:uartPrintf	292	static
+../src/hw/driver/uart.c:153:10:uartGetBaud	24	static
+../src/hw/driver/uart.c:169:6:HAL_UART_ErrorCallback	16	static
+../src/hw/driver/uart.c:176:6:HAL_UART_RxCpltCallback	16	static
+../src/hw/driver/uart.c:188:6:HAL_UART_MspInit	40	static
+../src/hw/driver/uart.c:241:6:HAL_UART_MspDeInit	16	static
