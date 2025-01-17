@@ -1,5 +1,6 @@
-../src/hw/driver/led.c:54:6:ledOff.part.0	0	static
-../src/hw/driver/led.c:22:6:ledInit	24	static
-../src/hw/driver/led.c:48:6:ledOn	0	static
-../src/hw/driver/led.c:54:6:ledOff	0	static
-../src/hw/driver/led.c:60:6:ledToggle	0	static
+../src/hw/driver/led.c:63:6:ledOff.part.0	0	static
+../src/hw/driver/led.c:27:6:ledInit	24	static
+../src/hw/driver/led.c:56:6:ledOn	0	static
+../src/hw/driver/led.c:63:6:ledOff	0	static
+../src/hw/driver/led.c:70:6:ledToggle	0	static
+../src/hw/driver/led.c:78:6:cliLed	16	static

@@ -30,13 +30,31 @@ src/bsp/stm32f1xx_it.o: ../src/bsp/stm32f1xx_it.c \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
  D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/FreeRTOS.h \
+ D:/A/baram/baram/src/bsp/FreeRTOSConfig.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/projdefs.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/portable.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/deprecated_definitions.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/mpu_wrappers.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/task.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/list.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/timers.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/task.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/queue.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/semphr.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/queue.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/event_groups.h \
+ D:/A/baram/baram/src/lib/FreeRTOS/Source/include/timers.h \
  D:/A/baram/baram/src/common/hw/include/led.h \
  D:/A/baram/baram/src/hw/hw_def.h \
  D:/A/baram/baram/src/common/hw/include/uart.h \
  D:/A/baram/baram/src/common/hw/include/usb.h \
  D:/A/baram/baram/src/common/hw/include/rtc.h \
  D:/A/baram/baram/src/common/hw/include/reset.h \
- D:/A/baram/baram/src/common/hw/include/flash.h ../src/bsp/stm32f1xx_it.h
+ D:/A/baram/baram/src/common/hw/include/flash.h \
+ D:/A/baram/baram/src/common/hw/include/cli.h ../src/bsp/stm32f1xx_it.h
 D:/A/baram/baram/src/main.h:
 D:/A/baram/baram/src/ap/ap.h:
 D:/A/baram/baram/src/hw/hw.h:
@@ -71,6 +89,23 @@ D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_ua
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
 D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/FreeRTOS.h:
+D:/A/baram/baram/src/bsp/FreeRTOSConfig.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/projdefs.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/portable.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/deprecated_definitions.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/mpu_wrappers.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/task.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/list.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/timers.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/task.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/queue.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/semphr.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/queue.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/event_groups.h:
+D:/A/baram/baram/src/lib/FreeRTOS/Source/include/timers.h:
 D:/A/baram/baram/src/common/hw/include/led.h:
 D:/A/baram/baram/src/hw/hw_def.h:
 D:/A/baram/baram/src/common/hw/include/uart.h:
@@ -78,4 +113,5 @@ D:/A/baram/baram/src/common/hw/include/usb.h:
 D:/A/baram/baram/src/common/hw/include/rtc.h:
 D:/A/baram/baram/src/common/hw/include/reset.h:
 D:/A/baram/baram/src/common/hw/include/flash.h:
+D:/A/baram/baram/src/common/hw/include/cli.h:
 ../src/bsp/stm32f1xx_it.h:
