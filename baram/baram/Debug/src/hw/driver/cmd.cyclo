@@ -1,0 +1,7 @@
+../src/hw/driver/cmd.c:24:6:cmdInit	1
+../src/hw/driver/cmd.c:33:6:cmdOpen	1
+../src/hw/driver/cmd.c:44:6:cmdClose	1
+../src/hw/driver/cmd.c:49:6:cmdReceivePacket	16
+../src/hw/driver/cmd.c:148:6:cmdSendCmd	3
+../src/hw/driver/cmd.c:178:6:cmdSendResp	3
+../src/hw/driver/cmd.c:209:6:cmdSendCmdRxResp	3

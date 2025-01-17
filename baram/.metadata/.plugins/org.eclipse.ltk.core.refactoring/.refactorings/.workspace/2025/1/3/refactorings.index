@@ -4,3 +4,5 @@
 1737038797101	Delete 2 resources
 1737039775271	Delete resource 'baram_boot/Debug'
 1737040123902	Delete resource 'baram_boot/src/lib/baram/Drivers/CMSIS'
+1737128774203	Delete resource 'baram/src/lib/FreeRTOS'
+1737128789287	Delete resource 'baram/src/bsp/FreeRTOSConfig.h'

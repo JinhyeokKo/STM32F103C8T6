@@ -30,9 +30,13 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|맑은 고딕"/>
 	</section>
 	<section name="PDOMSearchPage">
-		<item key="caseSensitive" value="false"/>
+		<item key="caseSensitive" value="true"/>
 		<item key="searchFlags" value="227191"/>
 		<list key="previousPatterns">
+			<item value="*baram"/>
+			<item value="*baram*"/>
+			<item value="baram"/>
+			<item value="Author:baram"/>
 			<item value="*uartPrintf*"/>
 			<item value="*CDC*"/>
 			<item value="GPIO_PIN_*"/>

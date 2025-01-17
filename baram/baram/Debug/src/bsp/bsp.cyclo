@@ -1,4 +1,4 @@
-../src/bsp/bsp.c:33:6:delay	2
+../src/bsp/bsp.c:33:6:delay	1
 ../src/bsp/bsp.c:49:10:millis	1
 ../src/bsp/bsp.c:54:5:__io_putchar	1
 ../src/bsp/bsp.c:61:6:SystemClock_Config	4

@@ -7,6 +7,8 @@
 
 #include "flash.h"
 
+#ifdef _USE_HW_FLASH
+
 #define FLASH_SECTOR_MAX 64
 
 typedef struct
@@ -37,7 +39,7 @@ bool flashErase(uint32_t addr, uint32_t length)
     uint32_t page_error;
 
     int16_t start_sector_num = -1;
-    uint32_t sector_count     = 0;
+    uint32_t sector_count    = 0;
 
     for (int i = 0; i < FLASH_SECTOR_MAX; i++)
     {
@@ -106,7 +108,7 @@ bool flashWrite(uint32_t addr, uint8_t *p_data, uint32_t length)
 
 bool flashRead(uint32_t addr, uint8_t *p_data, uint32_t length)
 {
-    bool ret = true;
+    bool ret        = true;
     uint8_t *p_byte = (uint8_t *)addr;
 
     for (int i = 0; i < length; i++)
@@ -150,3 +152,5 @@ bool flashInSector(uint16_t sector_num, uint32_t addr, uint32_t length)
 
     return ret;
 }
+
+#endif

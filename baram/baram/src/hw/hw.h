@@ -17,6 +17,8 @@
 #include "reset.h"
 #include "flash.h"
 #include "cli.h"
+#include "cmd.h"
+#include "ymodem.h"
 
 void hwInit(void);
 

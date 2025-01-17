@@ -9,6 +9,8 @@
 #include "cdc.h"
 #include "qbuffer.h"
 
+#ifdef _USE_HW_UART
+
 static bool is_open[UART_MAX_CH];
 
 static qbuffer_t qbuffer[UART_MAX_CH];
@@ -77,6 +79,12 @@ bool uartOpen(uint8_t ch, uint32_t baud)
     }
     return ret;
 }
+
+bool uartClose(uint8_t ch)
+{
+    return true;
+}
+
 uint32_t uartAvailable(uint8_t ch)
 {
     uint32_t ret = 0;
@@ -95,6 +103,7 @@ uint32_t uartAvailable(uint8_t ch)
 
     return ret;
 }
+
 uint8_t uartRead(uint8_t ch)
 {
     uint8_t ret = 0;
@@ -112,6 +121,7 @@ uint8_t uartRead(uint8_t ch)
 
     return ret;
 }
+
 uint32_t uartWrite(uint8_t ch, uint8_t *p_data, uint32_t length)
 {
     uint8_t ret = 0;
@@ -134,6 +144,7 @@ uint32_t uartWrite(uint8_t ch, uint8_t *p_data, uint32_t length)
 
     return ret;
 }
+
 uint32_t uartPrintf(uint8_t ch, char *fmt, ...)
 {
     char buf[256];
@@ -265,3 +276,4 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef *uartHandle)
         /* USER CODE END USART1_MspDeInit 1 */
     }
 }
+#endif

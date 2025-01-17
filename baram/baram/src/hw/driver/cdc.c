@@ -7,8 +7,13 @@
 
 #include "cdc.h"
 
-bool cdcInit(void){
-  bool ret = true;
+#ifdef _USE_HW_CDC
 
-  return ret;
+bool cdcInit(void)
+{
+    bool ret = true;
+
+    return ret;
 }
+
+#endif

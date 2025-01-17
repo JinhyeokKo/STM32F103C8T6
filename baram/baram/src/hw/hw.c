@@ -17,4 +17,5 @@ void hwInit(void)
     usbInit();
     uartInit();
     flashInit();
+    ymodemInit();
 }

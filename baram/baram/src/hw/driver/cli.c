@@ -190,6 +190,21 @@ bool cliMain(void)
     return true;
 }
 
+uint32_t cliAvailable(void)
+{
+    return uartAvailable(cli_node.ch);
+}
+
+uint8_t cliRead(void)
+{
+    return uartRead(cli_node.ch);
+}
+
+uint32_t cliWrite(uint8_t *p_data, uint32_t length)
+{
+    return uartWrite(cli_node.ch, p_data, length);
+}
+
 bool cliUpdate(cli_t *p_cli, uint8_t rx_data)
 {
     bool ret = false;
@@ -338,14 +353,15 @@ bool cliUpdate(cli_t *p_cli, uint8_t rx_data)
 
         if (rx_data == CLI_KEY_RIGHT)
         {
-            if (line->cursor < line->buf_len)
+            if (line->cursor < line->count)
             {
                 line->cursor++;
+
+                tx_buf[0] = 0x1B;
+                tx_buf[1] = 0x5B;
+                tx_buf[2] = rx_data;
+                uartWrite(p_cli->ch, tx_buf, 3);
             }
-            tx_buf[0] = 0x1B;
-            tx_buf[1] = 0x5B;
-            tx_buf[2] = rx_data;
-            uartWrite(p_cli->ch, tx_buf, 3);
         }
 
         if (rx_data == CLI_KEY_UP)
@@ -689,7 +705,7 @@ void cliMemoryDump(cli_args_t *args)
 
     if (args->argc < 1)
     {
-        cliPrintf(">> md addr [size] \n");
+        cliPrintf(">> md addr [size] \r\n");
         return;
     }
 
@@ -729,7 +745,7 @@ void cliMemoryDump(cli_args_t *args)
                 }
                 ascptr += 1;
             }
-            cliPrintf("|\n   ");
+            cliPrintf("|\r\n   ");
         }
         addr++;
     }

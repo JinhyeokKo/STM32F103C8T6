@@ -29,10 +29,6 @@ src/bsp/startup \
 src/common/core \
 src/hw/driver \
 src/hw \
-src/lib/FreeRTOS/Source/CMSIS_RTOS \
-src/lib/FreeRTOS/Source \
-src/lib/FreeRTOS/Source/portable/GCC/ARM_CM3 \
-src/lib/FreeRTOS/Source/portable/MemMang \
 src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Src \
 src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src \
 src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Src \

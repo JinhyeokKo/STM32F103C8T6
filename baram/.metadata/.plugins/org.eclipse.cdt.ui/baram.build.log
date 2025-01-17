@@ -1,10 +1,20 @@
-00:40:30 **** Incremental Build of configuration Debug for project baram ****
+01:32:22 **** Incremental Build of configuration Debug for project baram ****
 make -j20 all 
+arm-none-eabi-gcc "../src/hw/driver/ymodem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32F103xB -DUSER_VECT_TAB_ADDRESS -c -I"D:/A/baram/baram/src" -I"D:/A/baram/baram/src/ap" -I"D:/A/baram/baram/src/bsp" -I"D:/A/baram/baram/src/common" -I"D:/A/baram/baram/src/common/core" -I"D:/A/baram/baram/src/hw" -I"D:/A/baram/baram/src/lib" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/CMSIS/Include" -I"D:/A/baram/baram/src/lib/baram/Drivers/STM32F1xx_HAL_Driver/Inc" -I"D:/A/baram/baram/src/common/hw/include" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"D:/A/baram/baram/src/lib/baram/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/App" -I"D:/A/baram/baram/src/lib/baram/USB_DEVICE/Target" -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/ymodem.d" -MT"src/hw/driver/ymodem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/hw/driver/ymodem.o"
+arm-none-eabi-gcc -o "baram.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\A\baram\baram\src\bsp\ldscript\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="baram.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: baram.elf
+ 
 arm-none-eabi-size  baram.elf 
+arm-none-eabi-objdump -h -S baram.elf  > "baram.list"
+arm-none-eabi-objcopy  -O binary baram.elf  "baram.bin"
    text	   data	    bss	    dec	    hex	filename
-  40756	    860	  14332	  55948	   da8c	baram.elf
+  39464	    856	   7880	  48200	   bc48	baram.elf
 Finished building: default.size.stdout
  
+Finished building: baram.bin
+ 
+Finished building: baram.list
+ 
 
-00:40:30 Build Finished. 0 errors, 0 warnings. (took 235ms)
+01:32:22 Build Finished. 0 errors, 0 warnings. (took 746ms)
 
